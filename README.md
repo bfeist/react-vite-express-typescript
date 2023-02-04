@@ -49,5 +49,6 @@ Use rootDirs in tsConfig.json to tell the server typescript compiler to look als
 
 <h2>References</h2>
 This is a fork of the excellent https://github.com/NathanKr/react-vite-express-typescript-common-setup
+
 - Updated packages to latest
 - Details on this repo available here: https://www.youtube.com/watch?v=PPjpHaLkV7A
