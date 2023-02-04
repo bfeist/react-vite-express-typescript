@@ -1,6 +1,7 @@
-![npm](https://img.shields.io/npm/v/express?label=express&style=flat-square&logo=vite)
-![npm](https://img.shields.io/npm/v/vite?label=vite&style=flat-square&logo=vite)
 ![npm](https://img.shields.io/npm/v/react?label=react&style=flat-square&logo=vite)
+![npm](https://img.shields.io/npm/v/vite?label=vite&style=flat-square&logo=vite)
+![npm](https://img.shields.io/npm/v/express?label=express&style=flat-square&logo=vite)
+![npm](https://img.shields.io/npm/v/typescript?label=typescript&style=flat-square&logo=vite)
 
 <h2>Motivation</h2>
 <p>Using the same programming language on the client and the server opens opportunities to share code between them. E.g., URL, types, functions.</p>
