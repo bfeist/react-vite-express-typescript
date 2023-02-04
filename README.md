@@ -10,7 +10,7 @@
 <h2>Installation</h2>
 <ul>
 <li>
-Perform the following from ``root`` directory, `client` directory and `server` directory
+Perform the following from `root` directory, `client` directory and `server` directory
 
 ```
 npm i
