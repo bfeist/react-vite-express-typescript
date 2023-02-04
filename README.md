@@ -3,15 +3,14 @@
 ![npm](https://img.shields.io/npm/v/express?label=express&style=flat-square&logo=vite)
 ![npm](https://img.shields.io/npm/v/typescript?label=typescript&style=flat-square&logo=vite)
 
-<h2>Motivation</h2>
-<p>Using the same programming language on the client and the server opens opportunities to share code between them. E.g., URL, types, functions.</p>
-<p>In this repo, the client is a react vite project, and the server is an express application; both are using typescript.</p> 
-<p>Use this project as a boilerplate code for any typescript-based react \ express projects that share info.</p>
+<h2>Overview</h2>
+<p>In this repo, the client is a react vite project, and the server is an express application; both are using typescript, and both reference a `common` directory for common functions.</p> 
+<p>Use this project as a boilerplate code for any typescript react / express project.</p>
 
 <h2>Installation</h2>
 <ul>
 <li>
-Perform the following from root directory, client directory and server directory
+Perform the following from ``root`` directory, `client` directory and `server` directory
 
 ```
 npm i
