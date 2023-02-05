@@ -1,3 +1,3 @@
-export function validation(){
-    console.log('validate is called abcd');
+export function commonExample() {
+  console.log("common example output");
 }

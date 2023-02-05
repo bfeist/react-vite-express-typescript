@@ -1,22 +1,19 @@
 import styles from "./App.module.css";
-import axios from "axios";
 import { useState } from "react";
 import { ROOT_URL } from "../../common/src/constants";
-import { validation } from "../../common/src/utils";
+import { commonExample } from "../../common/src/utils";
+import type { RespExampleType } from "../../common/src/typings/types";
 
 function App() {
-  const [data, setData] = useState();
+  const [data, setData] = useState<RespExampleType>();
   const urlWithProxy = ROOT_URL;
 
-  validation();
+  commonExample();
 
-  function getDataFromServer() {
-    axios
-      .get(urlWithProxy)
-      .then((res) => setData(res.data))
-      .catch((err) => {
-        console.error(err);
-      });
+  async function getDataFromServer() {
+    const res = await fetch(urlWithProxy);
+    const data: RespExampleType = await res.json();
+    setData(data);
   }
 
   return (
@@ -24,7 +21,7 @@ function App() {
       <button className={styles.button} onClick={getDataFromServer}>
         Access server using proxy
       </button>
-      <p>data : {data}</p>
+      <p>data : {data?.text}</p>
     </div>
   );
 }
